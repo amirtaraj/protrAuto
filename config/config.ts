@@ -6,8 +6,7 @@ const jsonReports = process.cwd() + "/reports/json";
 export const config: Config = {
     directConnect: true,
     //seleniumAddress: "http://127.0.0.1:4444/wd/hub",
-
-    SELENIUM_PROMISE_MANAGER: false,
+     SELENIUM_PROMISE_MANAGER: false,
 
     baseUrl: "https://www.google.com",
 
