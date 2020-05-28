@@ -13,6 +13,10 @@ export const config: Config = {
 
     capabilities: {
         browserName: "chrome",
+        chromeOptions: {
+            args: [ "--headless", "--disable-gpu", "--window-size=1366,768" ]
+          }
+      
     },
 
     framework: "custom",
