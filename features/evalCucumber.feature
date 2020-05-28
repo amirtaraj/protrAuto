@@ -11,15 +11,15 @@ Then I click on first search result
 #@MMTLoginScenario
 #Scenario: Make My Trip login
 #Then I click on login
-#When I type username "9008897298"
+#When I type username ""
 #Then I click on continue
 #Then I click on password
-#When I type password "458Lp700"
+#When I type password ""
 #Then I click on login button
 
-@MMTFlightSearchScenario
-Scenario: Make My Trip Flight Search
-When I click on from city
-When I type from city "Bangalore"
-When I type to city "Mumbai" 
-Then I click on search
+#@MMTFlightSearchScenario
+#Scenario: Make My Trip Flight Search
+#When I click on from city
+#When I type from city "Bangalore"
+#When I type to city "Mumbai" 
+#Then I click on search
