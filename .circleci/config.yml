@@ -10,7 +10,8 @@ jobs:
       - node/with-cache:
           steps:
             - run: npm install
-            - run: npm test
+            - run: npm run webdriver-update
+            - run: npm run webdriver-start
 workflows:
     build-and-test:
       jobs:
