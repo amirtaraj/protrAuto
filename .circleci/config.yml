@@ -11,9 +11,6 @@ jobs:
           steps:
             - run: npm install
             - run: npm run webdriver-update
-            - run: npm run webdriver-start
-            - run: npm run build
-            - run: npm test
     build-and-test:
       jobs:
         - build-and-test
